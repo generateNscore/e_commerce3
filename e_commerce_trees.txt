@@ -1,0 +1,35 @@
+e_commerce2
+   ├─ .venv
+   ├─ app
+           ├─ data				: 생성할 데이터에 필요한 기초 자료들
+                    ├─ cities.py
+                    ├─ names.py
+                    └─ products.py
+           │
+           ├─ routers
+                    └─ admin.py			: endpoint이며 데이터 생성/저장/분석 교통정리
+           │
+           ├─ services
+                    ├─ analytics.py		: 생성된 데이터 분석
+                    ├─ data_generator.py	: 가상 데이터를 생성
+                    ├─ data_loader.py		: 생성된 데이터를 db에 저장
+                    └─ fake_data.py		: 생성할 가상 데이터의 구조
+           │
+           ├─ static
+                    ├─ css (empty)
+                    └─ js (empty)
+           │
+           ├─ templates
+                    └─ index.html
+           │
+           ├─ config.py
+           ├─ database.py
+           ├─ dependencier.py
+           ├─ main.py
+           ├─ models.py
+           └─ schemas.py (empty)
+   │
+   └─ .env
+
+updated 2026.07.31
+
