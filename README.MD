@@ -63,7 +63,7 @@ http://127.0.0.1:8000
 http://127.0.0.1:8000/docs
 ```
 
-*This page displays the interactive FastAPI endpoints. The `POST /admin/generate_data` endpoint is the gateway to creating your initial database.*
+*This page is a swagger ui screens that displays the interactive FastAPI endpoints. The `POST /admin/generate_data` endpoint is the gateway to creating your initial database.*
 
 ---
 
